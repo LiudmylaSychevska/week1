@@ -15,7 +15,7 @@ public class TestClass {
 
     @Test
     public void test2() {             // название не иформативное
-       calc = (new Math().MathSum(10, 3)); //дужки лишнии, надо вот так "new Math().MathSum(4, 48)"
-        assert (calc == (10 + 3)): "Ok";  //попробуйте использовать assertTrue из junit  как примере
+       calc = (new Math().MathSum(10, 3)); //дужки лишнии, надо вот так "new Math().MathSum(10, 3)"
+        assert (calc == (10 + 3)): "Ok";  //попробуйте использовать assertTrue из junit  как в примере
            }
 }
